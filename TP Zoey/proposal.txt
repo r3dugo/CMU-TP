@@ -1,0 +1,69 @@
+Term Project Proposal
+
+
+Name: Plaid Plant Protectors
+
+Description:
+Tower defence game (inspired by Plants vs. Zombies)
+Open to the field of the Cut. Left of the Cut is the UC.
+Starting the game shows the grid field of the lawn. 
+Player earns “Sunshine” every few seconds, which is used to put plants on the 
+lawn.
+Zombies are randomly spawned onto the right side of the Cut and walk towards 
+the UC. 
+Twist: halfway through the game, player starts controlling zombies – instead of
+generating "Sunshine", "Moonlight" is generated, that is used to spawn zombies.
+New goal is to defeat the plants and enter the UC.
+Goal - can’t let the zombies reach UC before half time, and must reach UC as 
+zombies after half time.
+
+
+Similar Projects:
+Inspired by Plants vs. Zombies. Similar in the way the first half is played.
+The game starts off in a tower defence gameplay, revolving around defending the 
+base from the enemy.
+The game needs resource management, (conserving sunshine and moonlight) and the
+player has to manage this resource to deploy the plants and later the zombies.
+The biggest difference is the twist in the game – instead of deploying plants,
+the player deploys the zombies.
+The player must find a balance between defending the UC and leaving it open
+enough that they can later defeat the plants as the zombies.
+
+
+Structural Plan:
+Need to make multiple different classes of the different plant and zombie types.
+Class functions will be needed to operate the functions of each plant or zombie
+type – e.g. attack or defensive action by the plants, walk cycle and defence by
+the zombies.
+Switching from the plants to the zombies will be needed.
+
+
+Algorithmic Plan:
+Hardest part is keeping track of the lawn and the plants on the field.
+Plan on making a 2d list keeping track of the lawn and the kind of plants on it,
+and also a list of all the plants existing.
+Make a function adding and deleting plants on the list.
+*Note: after half time switch, must also make a list of zombies.
+
+
+Timeline Plan:
+Finish the class functions by TP1. Start working on graphics – title screen,
+instructions, and field.
+By TP2, be able to deploy plants and zombies to the field. Work on timing and
+sunshine/moonlight generation. Should be able to play the game as just plants.
+Start working on the game twist.
+TP3, finish the game twist.
+
+
+Version Control Plan:
+Upload files from VS code to a repository on GitHub:
+https://github.com/r3dugo/CMU-TP
+
+
+Module List:
+No additional modules.
+
+
+TP1 Update:
+
+No changes.
